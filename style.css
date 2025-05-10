@@ -3,150 +3,167 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
   color: #333;
   line-height: 1.6;
 }
 
 /* 헤더 */
 header {
-  background-color: #222;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
   color: white;
   text-align: center;
   padding: 3rem 1rem;
+  border-bottom: 5px solid #ff5f57;
 }
 
 header h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   opacity: 0.85;
 }
 
 /* 본문 */
 main {
-  max-width: 800px;
-  margin: 2rem auto;
+  max-width: 1100px;
+  margin: 3rem auto;
   padding: 0 1rem;
 }
 
-section {
-  margin-bottom: 2.5rem;
+/* 팀원 카드 스타일 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-h2 {
-  font-size: 1.6rem;
-  margin-bottom: 0.8rem;
+.profile-card {
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 125, 95, 0.1), rgba(254, 180, 123, 0.3));
+  z-index: -1;
+  transition: background 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.profile-card:hover::before {
+  background: linear-gradient(135deg, rgba(255, 125, 95, 0.3), rgba(254, 180, 123, 0.5));
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1);
+}
+
+.profile-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.4rem;
   color: #222;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.3rem;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+.profile-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
 }
 
-ul li {
-  margin-bottom: 0.5rem;
-}
-
-/* 팀 리스트 링크 스타일 */
-.team-list a {
-  display: inline-block;
-  font-size: 1.2rem;
-  color: #007acc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.team-list a:hover {
-  color: #005fa3;
-  text-decoration: underline;
-}
-
-/* 기술 태그 */
-.skills span {
-  display: inline-block;
-  background-color: #e0e0e0;
-  padding: 0.4rem 0.8rem;
-  margin: 0.2rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
-/* 링크 */
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.profile-card:hover h3 {
+  color: #ff7e5f;
 }
 
 /* 뒤로 가기 링크 */
 .back-link {
   display: inline-block;
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #555;
+  transition: color 0.3s ease;
 }
 
 .back-link:hover {
-  color: #000;
+  color: #ff7e5f;
+  text-decoration: underline;
 }
 
 /* 푸터 */
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #888;
-  border-top: 1px solid #ddd;
+  background-color: #f3f4f6;
+  border-top: 5px solid #ff7e5f;
 }
 
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
+footer p {
+  margin: 0;
 }
 
-.profile-card {
-  background-color: white;
-  border-radius: 12px;
-  text-align: center;
-  padding: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  color: inherit;
+/* 반응형 디자인 */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-card {
+    padding: 1rem;
+  }
+
+  .profile-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .profile-card p {
+    font-size: 0.9rem;
+  }
 }
 
-.profile-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+@media screen and (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
 }
 
-.profile-card img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 0.8rem;
-}
-
-.profile-card h3 {
-  margin: 0.5rem 0 0.2rem;
-  font-size: 1.2rem;
-}
-
-.profile-card p {
-  font-size: 0.9rem;
-  color: #555;
-}
