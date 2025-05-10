@@ -1,4 +1,4 @@
-/* 기본 설정 */
+/* 전체 기본 설정 */
 body {
   margin: 0;
   padding: 0;
@@ -28,17 +28,36 @@ header p {
   opacity: 0.85;
 }
 
-/* 본문 */
+/* 메인 섹션 */
 main {
   max-width: 1100px;
   margin: 3rem auto;
   padding: 0 1rem;
 }
 
-/* 팀원 카드 스타일 */
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* 팀원 카드 */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -49,7 +68,7 @@ main {
   text-align: center;
   padding: 1.5rem;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
   overflow: hidden;
@@ -99,25 +118,11 @@ main {
 .profile-card p {
   font-size: 1rem;
   color: #555;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .profile-card:hover h3 {
   color: #ff7e5f;
-}
-
-/* 뒤로 가기 링크 */
-.back-link {
-  display: inline-block;
-  margin-top: 2rem;
-  font-size: 1.1rem;
-  color: #555;
-  transition: color 0.3s ease;
-}
-
-.back-link:hover {
-  color: #ff7e5f;
-  text-decoration: underline;
 }
 
 /* 푸터 */
@@ -130,11 +135,7 @@ footer {
   border-top: 5px solid #ff7e5f;
 }
 
-footer p {
-  margin: 0;
-}
-
-/* 반응형 디자인 */
+/* 반응형 */
 @media screen and (max-width: 768px) {
   header h1 {
     font-size: 2.5rem;
@@ -144,16 +145,8 @@ footer p {
     grid-template-columns: 1fr 1fr;
   }
 
-  .profile-card {
-    padding: 1rem;
-  }
-
   .profile-card h3 {
     font-size: 1.3rem;
-  }
-
-  .profile-card p {
-    font-size: 0.9rem;
   }
 }
 
@@ -166,4 +159,3 @@ footer p {
     font-size: 2rem;
   }
 }
-
