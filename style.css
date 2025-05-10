@@ -1,4 +1,114 @@
-/* ... (이전 설정 동일) ... */
+/* 기본 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 헤더 */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+/* 본문 */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: #222;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* 팀 리스트 링크 스타일 */
+.team-list a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.team-list a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* 기술 태그 */
+.skills span {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* 링크 */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 뒤로 가기 링크 */
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.back-link:hover {
+  color: #000;
+}
+
+/* 푸터 */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #ddd;
+}
 
 .card-grid {
   display: grid;
