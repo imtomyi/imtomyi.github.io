@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Seunghyun Yi (이승현)
-### 🎓 Student at KyungHee University | Aspiring [Your Role, e.g., Backend Developer]
+### 🎓 Student at KyungHee University | Aspiring [Sophomore, e.g., Backend Developer]
 
 <p align="left">
 <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20views&color=0e75b6&style=flat" alt="yourusername" />
@@ -8,7 +8,7 @@
 ---
 
 ## 🚀 About Me
-I'm a developer who loves solving complex problems with elegant code. Currently, I'm focusing on building high-performance systems and exploring the world of [Your Interest].
+I'm a developer who loves solving complex problems with elegant code. Currently, I'm focusing on building high-performance systems and exploring the world of data science, robotics and finance.
 
 - 🔭 **Focusing on:** [Specific Project Name]
 - 🌱 **Learning:** Currently diving deep into **System Design** and **Go**
