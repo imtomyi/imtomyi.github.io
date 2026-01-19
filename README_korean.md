@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Seunghyun Yi (이승현)
-### 🎓 KyungHee University | Sophomore
+### 🎓 KyungHee University, Software Convergence | Sophomore
 
 <p align="left">
 <img src="https://komarev.com/ghpvc/?username=seunghyun-yi&label=Profile%20views&color=0e75b6&style=flat" alt="seunghyun-yi" />
