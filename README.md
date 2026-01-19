@@ -36,31 +36,7 @@ I am a developer at KyungHee University’s College of Software Convergence, pas
 
 ## 📊 Performance Dashboard
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=seunghyun-yi&theme=tokyonight&no-bg=true&no-frame=true&column=7" width="100%" />
-</div>
 
-<br/>
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=seunghyun-yi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seunghyun-yi&layout=compact&theme=tokyonight" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=seunghyun-yi&theme=tokyonight&hide_border=true" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=seunghyun-yi&layout=compact&theme=tokyonight&langs_count=8" width="80%" />
-</div>
 
 
 ---
