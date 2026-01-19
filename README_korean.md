@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Seunghyun Yi (이승현)
-### 🎓 KyungHee University, Software Convergence | Sophomore
+### 🎓 KyungHee University, SoftWare Convergence | Sophomore
 
 <p align="left">
 <img src="https://komarev.com/ghpvc/?username=seunghyun-yi&label=Profile%20views&color=0e75b6&style=flat" alt="seunghyun-yi" />
@@ -28,8 +28,7 @@ I am a developer passionate about solving complex problems with elegant, efficie
 
 ## 📊 Stats & Activity
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=seunghyun-yi&theme=tokyonight&no-bg=true&no-frame=true" alt="trophy" /><br />
-  
+  <img src="https://github-profile-trophy.vercel.app/?username=seunghyun-yi&theme=tokyonight&no-bg=true&no-frame=true" /><br />
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=seunghyun-yi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seunghyun-yi&layout=compact&theme=tokyonight" />
 </p>
@@ -38,4 +37,13 @@ I am a developer passionate about solving complex problems with elegant, efficie
 
 ## 📫 Connect with Me
 <p align="left">
-<a href="https://www.linkedin.com/in/seunghyun-yi-82b268352"><img src="
+<a href="https://www.linkedin.com/in/seunghyun-yi-82b268352"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.instagram.com/sodi_0603/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="mailto:imtomyi@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+<p align="center">
+  <i>"내일의 나를 위해 오늘의 코드를 고민합니다."</i>
+</p>
