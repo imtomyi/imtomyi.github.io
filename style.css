@@ -154,6 +154,11 @@ a:hover {
 }
 
 /* About Me Section Layout */
+.name-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .about-container {
   display: flex;
   gap: 3rem;
@@ -277,6 +282,10 @@ a:hover {
 
   h1 {
     font-size: 1.75rem;
+  }
+
+  .name-header {
+    margin-bottom: 2rem;
   }
 
   .about-container {
