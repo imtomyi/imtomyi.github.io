@@ -155,51 +155,31 @@ a:hover {
 /* About Me Section Layout */
 .about-container {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   align-items: flex-start;
 }
 
 .about-content {
   flex: 1;
+  min-width: 0;
 }
 
 .about-photo {
   flex-shrink: 0;
-  width: 300px;
+  width: 350px;
   position: relative;
 }
 
 .profile-photo {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 450px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   display: block;
 }
 
-.photo-placeholder {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #999;
-  font-size: 0.9rem;
-  background: #f5f5f5;
-  padding: 2rem;
-  border-radius: 8px;
-  border: 2px dashed #ddd;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.profile-photo + .photo-placeholder {
-  display: none;
-}
-
-.profile-photo[src="photo.jpg"]:not([src*="/"]) + .photo-placeholder {
-  display: block;
-}
 
 /* Social Links */
 .social-links {
@@ -262,12 +242,17 @@ a:hover {
 
   .about-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
   .about-photo {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
+  }
+
+  .profile-photo {
+    height: auto;
+    max-height: 450px;
   }
 }
