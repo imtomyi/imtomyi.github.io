@@ -16,7 +16,7 @@ body {
 /* Navigation */
 nav {
   background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 2px solid #4A90E2;
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -35,7 +35,7 @@ nav {
 .nav-brand {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #000;
+  color: #1e3a8a;
 }
 
 .nav-menu {
@@ -53,9 +53,13 @@ nav {
   transition: color 0.3s ease;
 }
 
-.nav-menu li a:hover,
+.nav-menu li a:hover {
+  color: #4A90E2;
+}
+
 .nav-menu li a.active {
-  color: #000;
+  color: #1e3a8a;
+  font-weight: 600;
 }
 
 /* Hamburger menu */
@@ -69,7 +73,7 @@ nav {
 .hamburger span {
   width: 24px;
   height: 2px;
-  background-color: #000;
+  background-color: #1e3a8a;
   transition: all 0.3s ease;
 }
 
@@ -83,14 +87,14 @@ main {
 h1 {
   font-size: 2rem;
   font-weight: 600;
-  color: #000;
+  color: #1e3a8a;
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
 }
 
 .subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: #4A90E2;
   margin-bottom: 3rem;
 }
 
@@ -111,7 +115,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #999;
+  color: #4A90E2;
   margin-bottom: 0.75rem;
 }
 
@@ -132,13 +136,14 @@ em {
 }
 
 a {
-  color: #000;
+  color: #4A90E2;
   text-decoration: underline;
   text-underline-offset: 2px;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #666;
+  color: #1e3a8a;
 }
 
 /* Mobile styles */
