@@ -154,20 +154,25 @@ a:hover {
 }
 
 /* About Me Section Layout */
+.name-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
 .about-container {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   align-items: flex-start;
 }
 
 .about-content {
-  flex: 1;
+  flex: 2;
   min-width: 0;
 }
 
 .about-photo {
   flex-shrink: 0;
-  width: 280px;
+  width: 250px;
   position: relative;
 }
 
@@ -277,6 +282,10 @@ a:hover {
 
   h1 {
     font-size: 1.75rem;
+  }
+
+  .name-header {
+    margin-bottom: 2rem;
   }
 
   .about-container {
