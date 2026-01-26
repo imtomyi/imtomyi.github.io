@@ -10,7 +10,7 @@
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
-      <div class="nav-brand">Tom Yi</div>
+      <div class="nav-brand" id="navBrand">Tom Yi</div>
       <ul class="nav-menu" id="navMenu">
         <li><a href="#about" class="nav-link active" data-page="about">About Me</a></li>
         <li><a href="#cv" class="nav-link" data-page="cv">CV</a></li>
@@ -137,6 +137,24 @@
 
     hamburger.addEventListener('click', () => {
       navMenu.classList.toggle('active');
+    });
+
+    // Brand name click to go home
+    const navBrand = document.getElementById('navBrand');
+    navBrand.addEventListener('click', () => {
+      // Remove active class from all links and sections
+      navLinks.forEach(l => l.classList.remove('active'));
+      pageSections.forEach(s => s.classList.remove('active'));
+
+      // Activate About Me section
+      document.querySelector('[data-page="about"]').classList.add('active');
+      document.getElementById('about').classList.add('active');
+
+      // Close mobile menu
+      navMenu.classList.remove('active');
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // Page navigation
