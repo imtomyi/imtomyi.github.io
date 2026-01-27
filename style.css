@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-container {
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -90,7 +90,7 @@ nav {
 
 /* Main content */
 main {
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
 }
